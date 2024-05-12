@@ -8,24 +8,24 @@ The use of the DDPG algorithm allows you to create a model estimating the shape 
 
 ## Environment configuration
 
-For Windows:
-python -m venv venv
-venv/Scripts/activate.bat //In CMD
-venv/Scripts/Activate.ps1 //In Powershell
-pip install -r requirements.txt
+For Windows:  
+python -m venv venv  
+venv/Scripts/activate.bat //In CMD  
+venv/Scripts/Activate.ps1 //In Powershell  
+pip install -r requirements.txt  
+  
+For Mac/Linux:  
+python -m venv venv  
+source venv/bin/activate  
+pip install -r requirements.txt  
 
-For Mac/Linux:
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
 
+## Files description
 
-Files description
-
-data_preprocess.py downloads data from Yahoo Finance and calculates technical analysis indicators
-actor_critic_networks.py are the Actor and Critic DNN neural network frameworks
-ddpg_agent.py is the DDPG-DRL algorithm agent
-train.py is the procedure for training a model
-test.py is the procedure of a single episode of a trained model on test data
-environment_train.py i environment_test.py are training and testing environments for the agent
+data_preprocess.py downloads data from Yahoo Finance and calculates technical analysis indicators  
+actor_critic_networks.py are the Actor and Critic DNN neural network frameworks  
+ddpg_agent.py is the DDPG-DRL algorithm agent  
+train.py is the procedure for training a model  
+test.py is the procedure of a single episode of a trained model on test data  
+environment_train.py i environment_test.py are training and testing environments for the agent  
 capm.py is a beta capm calculation for test data
