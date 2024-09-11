@@ -21,11 +21,11 @@ pip install -r requirements.txt
 
 ## Files description
 
-thesis_PL.pdf represents an official diploma thesis document containing a detailed description of the algorithms used and the entire project in Polish
-data_preprocess.py downloads data from Yahoo Finance and calculates technical analysis indicators  
-actor_critic_networks.py are the Actor and Critic DNN neural network frameworks  
-ddpg_agent.py is the DDPG-DRL algorithm agent  
-train.py is the procedure for training a model  
-test.py is the procedure of a single episode of a trained model on test data  
-environment_train.py i environment_test.py are training and testing environments for the agent  
-capm.py is a beta capm calculation for test data
+**thesis_PL.pdf** represents an official diploma thesis document containing a detailed description of the algorithms used and the entire project in Polish
+**data_preprocess.py** downloads data from Yahoo Finance and calculates technical analysis indicators  
+**actor_critic_networks.py** are the Actor and Critic DNN neural network frameworks  
+**ddpg_agent.py** is the DDPG-DRL algorithm agent  
+**train.py** is the procedure for training a model  
+**test.py** is the procedure of a single episode of a trained model on test data  
+**environment_train.py & environment_test.py** are training and testing environments for the agent  
+**capm.py** is a beta capm calculation for test data
