@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 ## Files description
 
+thesis_PL.pdf represents an official diploma thesis document containing a detailed description of the algorithms used and the entire project in Polish
 data_preprocess.py downloads data from Yahoo Finance and calculates technical analysis indicators  
 actor_critic_networks.py are the Actor and Critic DNN neural network frameworks  
 ddpg_agent.py is the DDPG-DRL algorithm agent  
